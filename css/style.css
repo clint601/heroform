@@ -1,0 +1,36 @@
+:root{
+    --font1: "Bangers", serif;
+}
+
+
+
+*{box-sizing: border-box;}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* .background {
+    width: 100%;
+    height: 52vh;
+    
+} */
+
+.hero-img{
+    
+}
+
+.power-text{
+    font-family: var(--font1);
+}
+
+.heading {
+    font-family: var(--font1);
+    color: white;
+}
+/* width: 200px;
+  height: 100px;
+  background: red;
+  border-radius: 100px / 50px; */

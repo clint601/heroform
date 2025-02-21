@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Aminals</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="background">
+            <img src="image/heroname.jpeg"alt="placeholder img" class=" hero-img img-fluid image w-100 " />
+            
+        </div>
+    </div>
+    <header class="header" id="header">
+        <div class="container">
+            <h1 class="heading text-center text-capitalize">hero or villain</h1>
+        </div>
+            <section class="section" id="formSection">
+                <div class="container">
+                    <form action="#" class="form" id="heroForm">
+                        <!-- <h2 class="form-heading text-center text-capitalize">enter your character name</h2> -->
+                        <div class="row">
+                            <div class="col-lg-4 offset-lg-3 mt-4">
+                                <div class="form-floating">
+                                    <input type="text" id="heroName" name="heroName" class="form-control" value="" required />
+                                    <label for="heroName" class="text-uppercase">name</label>
+                                </div>
+                            </div>
+                            <div class="col mt-3">
+                                <select name="species" id="species" class="form-select">
+                                    <option selected>--role--</option>
+                                    <option value="hero">Hero</option>
+                                    <option value="villain">Villain</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+        </header>
+                        <main class="main" id="main">
+
+                            <div class="row ">
+                                <div class="col">
+                                    <h3 class="power-text form-subheading text-capitalize text-center mt-5">powers</h3>
+                                    <div class="form-check form-check-inline">
+                                        <input 
+                                        type="radio" 
+                                        name="powers" 
+                                        id="superspeed"
+                                        value="superspeed"
+                                        />
+                                        <label for="superspeed" class="form-check-label text-capitalize">superspeed
+                                            
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input 
+                                        type="radio" 
+                                        name="powers" 
+                                        id="superstrength"
+                                        value="superstrength"
+                                        />
+                                        <label for="superstrength" class="form-check-label text-capitalize">superstrength
+                                            
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input 
+                                        type="radio" 
+                                        name="powers" 
+                                        id="timetravel"
+                                        value="timetravel"
+                                        />
+                                        <label for="timetravel" class="form-check-label text-capitalize">timetravel
+                                            
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input 
+                                        type="radio" 
+                                        name="powers" 
+                                        id="teleportation"
+                                        value="teleportation"
+                                        />
+                                        <label for="teleportation" class="form-check-label text-capitalize">teleportation
+                                            
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input 
+                                        type="radio" 
+                                        name="powers" 
+                                        id="money"
+                                        value="money"
+                                        />
+                                        <label for="money" class="form-check-label text-capitalize">money
+                                            
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input 
+                                        type="radio" 
+                                        name="powers" 
+                                        id="magic"
+                                        value="magic"
+                                        />
+                                        <label for="magic" class="form-check-label text-capitalize">magic
+                                            
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input 
+                                        type="radio" 
+                                        name="powers" 
+                                        id="martal arts"
+                                        value="martal arts"
+                                        />
+                                        <label for="martal arts" class="form-check-label text-capitalize">martal arts
+                                            
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input 
+                                        type="radio" 
+                                        name="powers" 
+                                        id="telekinesis"
+                                        value="telekinesis"
+                                        />
+                                        <label for="telekinesis" class="form-check-label text-capitalize">telekinesis
+                                            
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input 
+                                        type="radio" 
+                                        name="powers" 
+                                        id="holy"
+                                        value="holy"
+                                        />
+                                        <label for="holy" class="form-check-label text-capitalize">holy
+                                            
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input 
+                                        type="radio" 
+                                        name="powers" 
+                                        id="flyingkites"
+                                        value="flyingkites"
+                                        />
+                                        <label for="flyingkites" class="form-check-label text-capitalize">flyingkites
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3 mt-3">
+                                <button class="btn btn-primary text-capitalize" id="submitBtn">submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+                <section class="section" id="cardSection">
+                    <div class="container">
+                        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="cardRow"></div>
+                    </div>
+                </section>
+                        </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
